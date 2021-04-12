@@ -1,0 +1,37 @@
+#headerM
+{
+   color:wheat; 
+   background-color:rgb(102, 95, 95);
+   height: 29vmax;
+}
+#menu{color:white;}
+#titleM
+{
+    height: 100px;
+    background-color: paleturquoise; color:rgb(0, 0, 255) align-items center;text-align: center;
+   
+}
+#title{background-color: paleturquoise; color:rgb(0, 0, 255) align-items center;text-align: center ;}
+#pieMenu
+{
+    background-color: paleturquoise;
+    height: 100px;
+}
+.parte1{color: black; background-color: cadetblue; float:left;width: 50%; text-align: center;}
+.parte2{color: black;background-color: cadetblue;float: left;width: 50%;text-align: center;height: 441px;}
+#h3-1{background-color: brown;}
+#calvo{background-color: rgb(116, 146, 99);}
+.introduccion{background-color: lightseagreen;text-align: center;}
+h1{text-align: center;background-color: peru;}
+#a1{float: left;width: 12%; text-align: center;color: black;background-color: lawngreen;}
+#a2{float: left;width: 12%; text-align:center;color: rgb(36, 29, 128);background-color: rgb(10, 217, 224);height: 700px;}
+#a3{float: left;width: 12%; text-align: center;color: rgb(182, 11, 11);background-color: rgb(221, 236, 10);height: 700px;}
+#a4{float: left;width: 12%; text-align: center;color: rgb(95, 192, 16);background-color: rgb(17, 95, 168);height: 700px;}
+#a5{float: left;width: 12%; text-align: center;color: rgb(204, 218, 14);background-color: rgb(221, 46, 23);height: 700px;}
+#a6{float: left;width: 12%; text-align: center;color: rgb(0, 0, 0);background-color: rgb(177, 196, 6);height: 300px;height: 700px;}
+
+.contenedor::after{content: "";display: block;clear: both;}
+
+#parteenlaces{float: left;width: 50%;background-color: burlywood;height: 1000px;text-align: center;}
+#listas{float: left;width: 50%;background-color: lightblue;text-align: center;}
+

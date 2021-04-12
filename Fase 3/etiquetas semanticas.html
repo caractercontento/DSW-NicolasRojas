@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semanticas</title>
+    <link rel="stylesheet" href="CSS/Estilos.CSS">
+
+</head>
+<body>
+    <header>
+        <h1>
+            Etiquetas semanticas <br><br></h1>
+            <div class="introduccion">
+            <h3><br> Concepto</h3>
+            <p><br> "Las etiquetas semánticas ayudan a definir la estructura del documento y permiten que las páginas web
+                sean mejor indexadas por los buscadores."
+                <br>
+                <br>
+                Una etiqueta se califica como semántica si tiene que ver el significado, es decir, si nos informa sobre lo
+                que trata su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro
+                de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al
+                formato, como UL, a multimedia, como VIDEO, etc.
+    
+                <br> El esquema de una página con etiquetas semánticas podría ser el siguiente.
+            </p>
+            <img src="imagenes/estructura-html5.jpg" alt="estructura">
+        </div>
+    </header>
+    <div class="contenedor">
+    <section>
+        <article id="a1"> 
+            <h4>
+                - HEADER
+                
+            </h4>
+            <p>Se utiliza como una introducción del elemento que la contiene. Si colocamos un HEADER en el BODY, a primer nivel, será una introducción o presentación de toda la página. Si colocamos un HEADER dentro de un SECTION, contendrá una introducción a esa sección. También se pueden colocar dentro de un ARTICLE.
+
+                El HEADER suele llevar el título, la descripción corta y el logo de la página. El HEADER por si mismo no separa contenidos, no se debe utilizar aislado, sino dentro de otra etiqueta semántica, o a primer nivel en el BODY.
+                
+                El HEADER no es equivalente a la parte superior de la página, aunque frecuentemente está en esa posición. La etiqueta HGROUP que se solía utilizar junto con el HEADER ha quedado obsoleta.
+                
+                Es bastante frecuente utilizar las etiquetas H1, H2, ... para escribir los títulos dentro del HEADER.</p>
+        </article>
+
+        <article id="a2"> 
+            <h4>
+                - SECTION  
+               
+            </h4>
+            <p>Una SECTION agrupa contenido con un tema común, por ejemplo, las diferentes partes de un periódico: 
+                política, sociedad, deportes, ...
+
+                Un sitio de cocina podría estar organizado en secciones. Una SECTION podría ser recetas de carne, 
+                otra recetas de pescado y otra de verduras. Dentro de cada SECTION tendríamos un ARTICLE por cada receta.
+                
+                Cada SECTION puede estar encabezada por una etiqueta H1, H2,... dentro de una SECTION suelen haber 
+                etiquetas ARTICLE, y también etiquetas DIV y P.
+                
+                Una SECTION no debe ser usada con el único fin de dar formato, para eso se utiliza la etiqueta DIV.</p>
+        </article>
+
+        <article id="a3"> 
+            <h4>
+                - ARTICLE  
+                
+            </h4>
+            <p>Representa una unidad de contenido, es decir, contenido que responde a un tema concreto. 
+                El ejemplo más claro es un artículo dentro de una revista, por ejemplo, en una página de cocina, un ARTICLE sería 
+                cómo elaborar un determinado plato. En un foro, un ARTICLE sería un post, o entrada en el foro.
+
+                Se pueden anidar un ARTICLE dentro de otro ARTICLE. Dentro de un ARTICLE el contenido se suele estructurar 
+                con las etiquetas DIV y P. También está permitido poner dentro de un ARTICLE una SECTION, siempre que el artículo 
+                sea largo y tenga diferentes secciones, pero lo más natural es que el ARTICLE vaya dentro de una SECTION. 
+                Más adelante trataremos cómo crear estructuras de páginas complejas, con tres niveles.</p>
+        </article>
+
+        <article id="a4"> 
+            <h4>
+                - NAV 
+               
+            </h4>
+            <p>Esta etiqueta está pensada para contener la barra de navegación o los enlaces a las páginas del sitio web.
+
+                Normalmente va en la parte superior de la página o en un lateral. 
+                Suele estar formada por una lista de enlaces con las etiquetas UL y LI.
+                 Aunque hay multitud de diseños diferentes de barras de navegación y menús.</p>
+        </article>
+
+        <article id="a5"> 
+            <h4>
+                - ASIDE
+            </h4>
+            <p>Esta etiqueta está diseñada para contenido tangencial, es decir
+                , menos importante que el cuerpo de la página, y que suele ser de un tema relacionado indirectamente 
+                (o no relacionado) con el tema principal. Se suele colocar en los laterales de la página. 
+                Pero no todo lo que va en los laterales es ASIDE. Por ejemplo, si la página tiene publicidad en el lateral derecho,
+                 puede colocarse en una etiqueta ASIDE,
+                 también una pequeña reseña sobre el autor podría ir en esta etiqueta.</p>
+        </article>
+
+        <article id="a6"> 
+            <h4>
+                - FOOTER 
+              
+            </h4>
+            <p>Normalmente va al final de la página y contiene información del tipo: autor, copyright, contacto, mapa del sitio, etc. Se pueden poner HEADER y FOOTER dentro de SECTION y ARTICLE,
+                aunque no es lo más normal. No hay nada prohibido, pero debe tener cierta lógica o sentido semántico.</p>
+        </article>
+    </section>
+    <aside><iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></aside>
+</div>
+</body>
+</html>
